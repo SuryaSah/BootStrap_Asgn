@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container ">
+			<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my_nav" aria-expanded="false">
+	        <!-- <span class="sr-only">Toggle navigation</span> -->
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Brand</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="my_nav">
+				<ul class="nav navbar-nav">
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">TextBooks</li>
+							<li class="divider">
+							<li>
+							<li>
+								<a href="#">Accounting</a>
+							</li>
+							<li>
+								<a href="#">Agriculture</a>
+							</li>
+							<li>
+								<a href="#">Anthropology</a>
+							</li>
+							<li>
+								<a href="#">Chemistry</a>
+							</li>
+							<li>
+								<a href="#">ComputerScience</a>
+							</li>
+							<li class="divider">
+							</li>
+							<li class="dropdown-header">Books</li>
+							<li>
+								<a href="#">Audiobooks</a>
+							</li>
+							<li>
+								<a href="#">Children's Books</a>
+							</li>
+							<li>
+								<a href="#">Cookbooks</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rare Books<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">Find Rare Books</li>
+							<li class="divider">
+							<li>
+								<a href="#">First Edition Books</a>
+							</li>
+							<li>
+								<a href="#">Antiquarian Books</a>
+							</li>
+							<li>
+								<a href="#">Signed Books</a>
+							</li>
+							<li class="divider">
+							</li>
+							<li class="dropdown-header">More Services</li>
+							<li>
+								<a href="#">Find a Seller</a>
+							</li>
+							<li>
+								<a href="#">Advanced Search</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sales & Gift Guide<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">Deals</li>
+							<li class="divider">
+							</li>
+							<li>
+								<a href="#">Buy Textbooks - Save up to 80%</a>
+							</li>
+							<li>
+								<a href="#">Rent Textbooks - Save up to 90%</a>
+							</li>
+							<li>
+								<a href="#">Cheap Books From 99$</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			<div class="col-sm-3 col-md-3 navbar-right">
+			<form class="navbar-form">
+				<!-- <input type="text" class="form-control search-query" placeholder="Search By Title,Author.." id="searchInput">
+				<span class="input-group">
+					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+				</span> -->
+
+				<div class="input-group ">
+					<div class="input-group-btn">
+			<input type="text" class="form-control" placeholder="Search By Title,Author.." id="searchInput"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+			</div>
+	</div>
+
+					<!--<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>-->
+			</form> <!-- end of nav bar form-->
+
+		</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> MyAccount <strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-refresh"></span> UpdateProfile</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-off"></span> Signout</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+			<div class="carousel slide " id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Book Gifting made fun</h4>
+							<p>Its your job to help your organization grow and increase its value to stakeholders.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Thinking, Fast and Slow.<h4>
+							<p>Thinking, Fast &amp;  a popular Udemy course that has helped thousands.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>The Psychopath Test</h4>
+							<p> A Journey Through the Madness Industry</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+
+			<div class="row img-responsive" id="features">
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Fiction
+							</h3><!--end panel-title-->
+							<img src="images/fiction.png" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								CookBook's
+							</h3><!--end panel-title-->
+							<img src="images/cookbooks.png" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Health Fitness
+							</h3><!--end panel-title-->
+							<img src="images/health_fitness.png" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Business
+							</h3><!--end panel-title-->
+							<img src="images/business.png" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Children's Fiction
+							</h3><!--end panel-title-->
+							<img src="images/childrens_fiction.png" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4" id="feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Photography
+							</h3><!--end panel-title-->
+							<img src="images/photography.jpg" class="thumbnail img-responsive" alt="html5">
+							<p>"Emotional Intelligence 2.0" is a book with a single purpose--increasing your EQ. Here's what people are saying</p>
+								 <a href="#" target="_blank" class="btn btn-warning btn-block">Read More</a>
+						</div><!--end panel-heading-->
+					</div><!--end panel-->
+				</div><!--end feature-->
+			</div><!--end features-->
+
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Book's location</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Company Location</a>
+							</li>
+							<li><a href="#tab2" data-toggle="tab">Releated Book's</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location<small>More like our favourite surf store</small></h4>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.986858658063!2d77.60846481435317!3d12.90856601975205!2m3!1f0!2f0!3f0!3m2!
+								1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14e25543a7bd%3A0x455ed56a85cbe0b7!2sMico+Layout+Police+Station!5e0!3m2!1sen!2sin!4v1458194232418" width="100%" height="200"
+								frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+								Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+							Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+							<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+							Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+						Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+					</div><!--end tab1-->
+
+					<div class="tab-pane" id="tab2">
+						<h4>Emotional Intelligence<small>Book's most prefer</small></h4>
+						<img src="images/Emotional2.jpg" class="thumbnail pull-left">
+						<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+						Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+					Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+					<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+					Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+				Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+				<hr>
+				<a href="#myModal" role="button" class="btn btn-danger" data-toggle="modal"><span class="glyphicon glyphicon-hand-up">Click Buy</span></a>
+
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Purchase Information</h4>
+							</div><!-- end modalheader-->
+							<div class="modal-body">
+
+								<div class="alert alert-success alert-block fade in" id="successAlert">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+									<h4>Success!</h4>
+									<p>You Successfully added your information </p>
+								</div><!-- end alert -->
+
+								<h4>Thanks for purchase</h4>
+								<p><small class="text-muted">Customer information</small></p>
+
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputName">Name</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputName" placeholder="Name" type="text">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputEmail" placeholder="Email" type="text">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputMessage">Address </label>
+										<div class="col-lg-10">
+											<textarea class="form-control" id="inputMessage" placeholder="Your Address.." rows="3">
+											</textarea>
+										</div>
+									</div>
+									<button class="btn btn-success pull-right" type="submit" id="alertMe">Save</button>
+								</form>
+
+
+							</div><!--end modalBody-->
+							<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal">Cancel</button>
+							<button class="btn btn-primary">Proceed</button>
+
+						</div><!--end modal footer-->
+						</div><!--end modalcontent-->
+					</div><!--end modaldialog-->
+				</div> <!--end my modal-->
+
+
+					</div><!--end tab2-->
+						</div><!--end tab-content-->
+					</div><!--end tabbable-->
+				</div><!-- end col-sm-6-->
+
+				<div class="col-sm-6">
+					<h3>Books releated info</h3>
+
+					<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+					Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+				Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+				<p>Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+				Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?
+			Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+			<h4>Collection of Book's</h4>
+
+			<div class="list-group img-responsive" id="set1">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">'Gardening Books for Fun and Profit'</h4>
+					<img src="images/Gardenbook.jpg" alt="garden book" class="thumbnail img-responsive pull-left">
+					<p class="list-group-item-text">Gardening seems to have been around since 10,000 BC.
+						  That?s when historians believe people first started to enclose outdoor spaces to keep out animals and marauders.
+							  Today we may only have to enclose o"ur gardens from pets and the mail man but we are still gardening.
+								 I remember when Gardening seems to have been around since 10,000 BC and the mail man but we are still gardening.</p>
+				</a>
+
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">'Bienvenidas! The Vanguard of Mexican Women Writers'</h4>
+					<img src="images/lovepoems.jpg" alt="garden book" class="thumbnail img-responsive pull-left">
+					<p class="list-group-item-text">We have heard of the great Latin American writers of the 20th Century,
+						 from Borges to Bolaño, to Fuentes, García Marquez and Vargas Llosa.
+						 The list goes on and describes some of the most interesting and celebrated talent from major countries in the Northern,
+						 Central and Southern corridors of the Western Bolaño, to Fuentes, García Marquez and Vargas Llosa and most interesting and
+						 celebrated talent from major countries</p>
+				</a>
+
+			</div><!--end list-group-->
+				</div><!--end col-sm-6-->
+			</div><!--more info-->
+
+			<hr>
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Offer's of the day</h3>
+					<div class="thumbnails row">
+
+						<div class="col-lg-6">
+							<div class="thumbnail">
+								<img src="images/2states.jpg" alt="Web hosting 101">
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag" id="tag2"></span>&#8377;12</div>
+								<div class="caption">
+									<h3>2 State Book's</h3>
+									<p>Some solid leading copy will help get your users engaged.
+										Use this area to come up with something real nice. Know what I'm sayin?</p>
+										<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take course</a>
+										<a href="#" class="btn btn-primary btn-link" target="_blank">Learn more
+										</a></p>
+								</div><!--end caption-->
+							</div><!--end thumbnail-->
+						</div><!--end col-6-->
+
+						<div class="col-lg-6">
+							<div class="thumbnail">
+								<img src="images/Paulo.jpg" alt="Web hosting 101">
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag" id="tag1"></span>&#8377;45</div>
+								<div class="caption">
+									<h3>The Alchemist</h3>
+									<p>Some solid leading copy will help get your users engaged.
+										Use this area to come up with something real nice. Know what I'm sayin?</p>
+										<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take course</a>
+										<a href="#" class="btn btn-primary btn-link" target="_blank">Learn more
+										</a></p>
+								</div><!--end caption-->
+							</div><!--end thumbnail-->
+						</div><!--end col-6-->
+
+					</div><!--thumbnails-->
+				</div><!-- end col-12-->
+			</div><!--end moreCourses-->
+
+		</div><!--end container-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2016 Surya </h6>
+					</div><!-- end col-sm-2-->
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Some solid leading copy will help get your users engaged.
+							Use this area to come up with something real nice. Know what I'm sayin?</p>
+					</div><!-- end col-sm-4-->
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Service</a></li>
+							<li><a href="#">contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2-->
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2-->
+					<div class="col-sm-2">
+						<h6>Cooded with <span class="glyphicon glyphicon-heart"></span> By Surya</h6>
+					</div><!-- end col-sm-2-->
+				</div><!--end row-->
+			</div><!-- end container-->
+		</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
